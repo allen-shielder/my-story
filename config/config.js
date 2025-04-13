@@ -1,17 +1,18 @@
 var config = {
     /*在这里配置你的基本信息，所有数据以字符串形式给出*/
     name: "YiLun Wu",
-    age: "29",
-    phone: "+64 0212725003",
+    // age: "29",
+    phone: "+1 7788822987",
+    location: "Burnaby, BC, Canada",
     email: "allenshielder1994@outlook.com",
-    school: "Massey University",
-    major: "Electronic and Computer Engineering",
+    school: "Massey University/NYIT",
+    major: "Computer & Cyber Engineering",
     log: "Allen Shielder",
     job: "Software Engineer",
 
     strFormContentName: "Name",
-    strFormContentAge: "Age",
     strFormContentPhone: "Phone",
+    strFormContentLocation: "Location",    
     strFormContentMail: "Mail",
     strFormContentSchool: "School",
     strFormContentMajor: "Major",
@@ -39,11 +40,10 @@ var config = {
 
 
     /*在这里配置关于我的信息，你可以内嵌HTML标签以调整格式*/
-    about: "<p>Yilun Wu (Allen) is a Sr Software Engineer at PwC, primarily responsible for the development and deployment of Salesforce, with experience in large-scale projects such as PepsiCo's Latam, and Huawei's xFusion. Customers all gave a high comment for his DevOps and Salesforce development capabilities.</p>"+
-            "<p>In 2019, Allen and his partners co-founded Love Live Technology in Auckland, New Zealand. Allen learned a lot during his entrepreneurial years, not only his first exposure to CRM (Salesforce) and DevOps technologies but also about agile development concepts and project management in various projects.</p>"+
-            "<p>Currently, Allen is interested in a challenge. Reach out to allenshielder1994@outlook.com to connect!</p>",
+    about: "<p>Software Engineer with 5+ years of experience across New Zealand, North America, and now based in Canada. I specialize in full-stack development, cloud integration, and DevOps automation, with hands-on expertise in Salesforce, Kubernetes, and microservices.</p>"+
+            "<p>At PwC, I led Salesforce deployments for enterprise clients like PepsiCo LATAM. At Ericsson, I worked on the CNOM platform supporting 3G/4G/5G and IMS networks. I also co-founded a food delivery startup in New Zealand, which grew to cover over 30% of Auckland's market."+
+            "<p>I'm passionate about scalable, secure systems — and currently seeking new opportunities in Canada.</p>",
     strFormContentInfo: "Information",
-    strFormContentSummary: "Summary",
 
 
     /** 
@@ -51,25 +51,25 @@ var config = {
     * ["技能点", 掌握程度, "技能条颜色"]
     */  
     skills: [
-        ["C#", 80, "rgb(147,147,145)"],
-        ["Salesforce Development", 77, "rgb(191,191,191)"],
-        ["HTML5+CSS3", 75, "rgb(224,229,223)"],
-        ["JavaScript", 75, "rgb(181,196,177)"],
-        ["SQL", 65, "rgb(193,203,215)"],
-        ["DevOps", 60, "rgb(175,176,178)"],
+        [".NET(C#)", 70, "rgb(147,147,145)"],
+        ["Salesforce", 80, "rgb(191,191,191)"],
+        ["HTML5/CSS3", 80, "rgb(224,229,223)"],
+        ["JavaScript", 80, "rgb(181,196,177)"],
+        ["Database(SQL/MongoDB/SOQL)", 75, "rgb(193,203,215)"],
+        ["DevOps(Docker, Jenkins, Azure)", 70, "rgb(175,176,178)"],
     ],
 
 
     /*这里填写你的技能描述，你可以内嵌HTML标签以调整格式*/
     skills_description: "<ul>" +
-        "     <li>Master's Degree in Computer Engineering.</li>" +
-        "     <li>Complex enterprise systems (Pepsi system and Huawei system) support experience</li>" +
-        "     <li>Ability to work in team collaboration or independently.</li>" +
-        "     <li>Ability to work under pressure.</li>" +
-        "     <li>Ability to troubleshoot program issues</li>" +
-        "     <li>Ability to build trusting relationships with clients and colleagues</li>" +
-        "     <li>Good knowledge of varieties of DevOps Tools(Azure, Jenkins, and Copado)" +
-        "     <li>Have excellent communication skills (both written and verbal).</li></li>" +
+        "     <li>Master's Degree in Electronic and Computer Engineering</li>" +
+        "     <li>Experience with enterprise systems like PepsiCo LATAM and Ericsson CNOM</li>" +
+        "     <li>Delivering cloud solutions with Salesforce, Docker, and Kubernetes</li>" +
+        "     <li>Proficient in backend debugging, optimization, and system reliability</li>" +
+        "     <li>Skilled in DevOps pipelines using Jenkins, GitHub Actions, and Azure</li>" +
+        "     <li>Strong in cross-functional teamwork and clear technical communication</li>" +
+        "     <li>Thrive under tight deadlines and fast-paced delivery cycles" +
+        "     <li>Recognized for technical consistency and leadership trust</li></li>" +
         " </ul>",
 
 
@@ -94,19 +94,29 @@ var config = {
     work: [
         //如果您内有工作经历，您可以采取下列写法
         // ["————————", "", "<p>暂无工作经历，期待您的联系。</p>"]
-
-        ["08/2021 — Today", "<br>PwC US",
-            "<p><strong>Sr Software Engineer</strong></p>" +
-            "<p>Salesforce Developer</p>" +
-            "<p>DevOps(Azure, Jenkins and Copado)</p>" +
-            "<p>Quality Analysis</p>"
+        ["06/2023 - 01/2025", "<br><br>Ericsson",
+            "<p><strong>Software Engineer</strong></p>" +
+            "<p>Built backend services in Python + MongoDB for KPI & alarm analytics, improving efficiency by 30%</p>" +
+            "<p>Managed real-time monitoring and alerting systems, reducing incident response time</p>" +
+            "<p>Deployed containerized services on Kubernetes, with full CI/CD automation using Jenkins</p>" +
+            "<p>Worked in an Agile environment supporting 3G/4G/5G and IMS networks</p>"
         ],
 
-        ["12/2019 — 03/2021", "<br>LoveLive Ltd(Self-Entrepreneurial)",
-            "<p><strong>Technical Leader</strong></p>" +
-            "<p>Full stack Developer(Flutter, Salesforce, C#, MySql)</p>" +
-            "<p>DevOps(Jenkins)</p>" +
-            "<p>Technical Support</p>"
+        ["08/2021 - 02/2023", "<br><br>PwC US",
+            "<p><strong>Software Engineer</strong></p>" +
+            "<p>Led Salesforce-SAP integration for enterprise clients like PepsiCo Cloud</p>" +
+            "<p>Developed and maintained custom Salesforce solutions using Apex, LWC, and Flow</p>" +
+            "<p>Built secure, scalable APIs to support real-time data exchange</p>" +
+            "<p>Automated CI/CD pipelines via Azure, Jenkins, and Copado</p>" +
+            "<p>Focused on unit testing, metadata-driven architecture, and global team collaboration</p>"
+        ],
+
+        ["12/2019 — 03/2021", "<br><br>LoveLive Ltd NZ",
+            "<p><strong>Full-stack Engineer</strong></p>" +
+            "<p>Developed Soda Express, scaling to 30% of Auckland's food delivery market</p>" +
+            "<p>Full-stack dev with Flutter, Salesforce, C#, MySQL</p>" +
+            "<p>Built real-time tracking and optimized delivery routes</p>" +
+            "<p>Owned DevOps with Jenkins and led client delivery</p>"
         ]
     ],
 
@@ -117,10 +127,12 @@ var config = {
      * 建议填写您的校级及以上得奖经历或或其他证书
      */
     others: [
-        ["01/08/2021", "Hello PwC, Hello Shanghai", "On the first day of August 2021, I successfully joined PwC US and was based in Shanghai. It feels so good to be home."],
-        ["11/2020", "I Graduated!", "In November 2020, I finally got my Master of Engineering from Massey University and finished university life. Although I spent most of the second half of my college life in rental housing due to the Covid-19 outbreaking, I still think the day is worth celebrating :)"],
-        ["12/2019", "When genius wanna change life", "When I stayed with my roommate for a half year, he and I wanted to be able to eat fast and cheap food delivery. We decided to build up our company (LoveLive Ltd)."],
-        ["31/10/2018", "Kia Ora Aotearoa", "After receiving a Condition offer from Massey University in July 2018, I arrived in New Zealand on the last day of October (Halloween eve) to prepare for my university life."]
+        ["01/2025", "Move to Canada", "Started my Second Master's in Cybersecurity.<p>Transitioning from engineering to security, building toward the future of trusted systems.</p>"],
+        ["06/2023", "Joined Ericsson and CNOM", "Worked as a backend engineer in telecom core network systems. Gained deep experience in cloud deployment and real-time monitoring.<p>Built robust services for North America's 5G networks & IMS Operation and Management system.</p>"],
+        ["08/2021", "Started at PwC US", "Joined PwC US as a Salesforce Developer, working on global enterprise CRM and DevOps projects."],
+        ["11/2020", "Graduated!", "Despite Covid-19 challenges, I completed my studies and transitioned toward enterprise tech."],
+        ["12/2019", "Founded LoveLive Ltd","I led the development of a logistics platform that later handled over 30% of Auckland's delivery market. <P>This was my first full-stack project from 0 to 1 — and my introduction to DevOps, mobile apps, and system scaling.</P>"],
+        ["10/2018", "Kia Ora Aotearoa", "I came on Halloween Eve 2018 and began my overseas academic and professional journey. This was the start of everything — new life, new goals, new continent."]
     ],
 
 

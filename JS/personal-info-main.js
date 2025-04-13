@@ -10,6 +10,7 @@ $(function () {
         $(".name").html(config.name);
         $(".age").html(config.age);
         $(".phone").html(config.phone);
+        $(".location").html(config.location);
         $(".email").html(config.email);
         $(".school").html(config.school);
         $(".major").html(config.major);
@@ -36,8 +37,8 @@ $(function () {
         $(".desc").html(config.skills_description);
 
         $(".strFormContentName").html(config.strFormContentName);
-        $(".strFormContentAge").html(config.strFormContentAge);
         $(".strFormContentPhone").html(config.strFormContentPhone);
+        $(".strFormContentLocation").html(config.strFormContentLocation);
         $(".strFormContentMail").html(config.strFormContentMail);
         $(".strFormContentSchool").html(config.strFormContentSchool);
         $(".strFormContentMajor").html(config.strFormContentMajor);
@@ -48,7 +49,6 @@ $(function () {
         });
 
         $(".strFormContentInfo").html(config.strFormContentInfo);
-        $(".strFormContentSummary").html(config.strFormContentSummary);
         // title
         $(".strFormContentPersonalInfo").html(config.strFormContentPersonalInfo);
         $(".strFormContentSkillnSummary").html(config.strFormContentSkillnSummary);
