@@ -29,10 +29,10 @@ class NavbarView extends LivixElement {
               My Resume
             </a>
             <a class="nav-link" href="mailto:allenshielder1994@outlook.com">
-               <img class="ico" src="../../../assets/ico/png/email.png" alt="in"></img>
+               <img class="ico" src="src/component/navBar/ico/png/email.png" alt="in"></img>
             </a>
             <a class="nav-link" href="https://www.linkedin.com/in/yilun-wu-525b411b0/" target="_blank">
-             <img class="ico" src="../../../assets/ico/png/linkedin5.png" alt="in"></img>
+             <img class="ico" src="src/component/navBar/ico/png/linkedin5.png" alt="in"></img>
             </a>
           </div>
           <button class="menu-button" aria-label="Menu">
