@@ -25,7 +25,7 @@ class NavbarView extends LivixElement {
             <a class="nav-link" href="#skills-summary">Skills& Summary</a>
             <a class="nav-link" href="#work-history">Work History</a>
             <a class="nav-link" href="#my-story">My Story</a>
-            <a class="nav-link" href="./resume/resume.pdf" download="YILUN_7788822987">
+            <a class="nav-link" href="src/component/navBar/resume/resume.pdf" download="YILUN_7788822987">
               My Resume
             </a>
             <a class="nav-link" href="mailto:allenshielder1994@outlook.com">
@@ -47,7 +47,7 @@ class NavbarView extends LivixElement {
           <a href="#skills-summary">Skills& Summary</a>
           <a href="#work-history">Work History</a>
           <a href="#my-story">My Story</a>
-          <a class="nav-link" href="./resume/resume.pdf" download="YILUN_7788822987">
+          <a class="nav-link" href="src/component/navBar/resume/resume.pdf" download="YILUN_7788822987">
             My Resume
           </a>
           <a href="mailto:allenshielder1994@outlook.com">mail</a>
