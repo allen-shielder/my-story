@@ -1,0 +1,108 @@
+.skills-summary {
+  min-height: 100vh;
+  height: auto;
+  margin-top: 40px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-left,
+.info-right {
+  flex: 1;
+  min-width: 300px; /* Ensure automatic line wrapping on small screen */
+}
+
+.infoselec {
+  z-index: 3;
+}
+
+.skills-summary {
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.info-card-dark {
+  background-color: #3f3d56; /* Dark background */
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 80%;
+  height: auto;
+  position: static;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Allow line breaks */
+  gap: 40px; /* Adding this will expand the left and right spacing */
+}
+
+.info-card-dark:hover {
+  transform: scale(1.01); /* Zoom in a little bit */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15); /* Higher and brighter shadows */
+}
+
+/* Progress bar structure */
+.skill {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.skill label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: white;
+}
+
+.skill-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.skill-bar input[type="range"] {
+  flex: 1;
+  margin-right: 10px;
+}
+.skill-bar span {
+  color: white;
+  white-space: nowrap;
+  font-size: 0.9rem;
+}
+
+.animated-range {
+  transition: all 0.3s ease-in-out;
+}
+
+.summary-list {
+  color: white;
+  list-style-position: inside; /* The dot is close to the text */
+  padding-left: 0; /* Remove default left margin */
+  margin: 0;
+  font-size: 1rem; /* Keep the font size consistent */
+  line-height: 3; /* Increase the line spacing to match the height of the left progress bar */
+  text-align: left; /* Force left alignment */
+}
+/* Initial state */
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-out;
+}
+
+/* State when appearing in the viewport */
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}

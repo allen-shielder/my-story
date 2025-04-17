@@ -1,0 +1,32 @@
+.info-content-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 10;
+    color: black;
+    position: relative;
+    text-align: left;
+    top: -15px;
+  }
+
+  .info-content {
+    font-size: 1rem;
+    margin: 10;
+    color: black;
+    position: relative;
+    text-align: left;
+    top: -15px;
+  }
+
+  .info-right td {
+    overflow: auto;
+  }
+
+  .info-right td:first-child {
+    font-weight: bold;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .info-content td:nth-child(2) {
+    width: 50%;
+  }
